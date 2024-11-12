@@ -2,6 +2,7 @@ export const JOURNEY_TITLE = "HERE'S A BIT OF MY JOURNEY";
 export const TOOLKIT_TITLE = "MY PROFESSIONAL TOOLKIT";
 export const ESSENTIALS_TITLE = "MY EVERYDAY ESSENTIALS";
 export const PROJECTS_TITLE = "ACADEMIC PROJECTS";
+export const DEVELOPER_NAME = "Yashaswini Nagaraju";
 
 export const ABOUT_TEXT = `
   My passion for computers started back in high school, where we had just two computer classes each week, but I found myself eagerly looking forward to each one.  
@@ -36,3 +37,10 @@ export const ACTIVITIES_LIST = [
     { name: "Watching Documentaries" },
 ];
 
+export const LINKEDIN_URL = "https://www.linkedin.com/in/yashaswini-nagaraju-99116aa6/";
+
+export const GITHUB_URL = "https://github.com/yashaswini-nagaraju";
+
+export const INSTAGRAM_URL = "https://www.instagram.com/_yashaswini_nagaraj/";
+
+export const FACEBOOK_URL = "https://www.facebook.com/yashaswininagaraj.n.5";
