@@ -1,21 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiMongodb,
-  DiPython,
   DiGit,
   DiJava,
+  DiJavascript1,
+  DiMongodb,
+  DiPython,
+  DiReact,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiPostgresql,
-  SiTypescript,
   SiApachekafka,
+  SiPostgresql,
+  SiRedis,
+  SiTypescript,
 } from "react-icons/si";
+import "./Stack.css";
 
-const techStackData = [
+const techStack = [
   { icon: <DiJava />, name: "Java" },
   { icon: <DiPython />, name: "Python" },
   { icon: <DiReact />, name: "React" },
@@ -30,9 +31,9 @@ const techStackData = [
 
 const TechStack = () => {
   return (
-    <Row style={{ justifyContent: "center"}}>
-      {techStackData.map((tech, index) => (
-        <Col key={index} xs={4} md={2} className="tech-icons">
+    <Row style={{ justifyContent: "center" }}>
+      {techStack.map((tech) => (
+        <Col key={tech.name} xs={4} md={2} className="tech-icons">
           {tech.icon}
           <p>{tech.name}</p>
         </Col>
