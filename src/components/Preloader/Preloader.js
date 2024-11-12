@@ -1,7 +1,7 @@
 import React from "react";
 
-const Preload = (props) => {
+const Preloader = (props) => {
   return <div id={props.load ? "preloader" : "preloader-none"}></div>;
 }
 
-export default Preload;
+export default Preloader;
