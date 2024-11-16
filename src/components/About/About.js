@@ -9,7 +9,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <Container className="about-container">
+    <Container fluid className="about-container">
       <h1 className="about-heading">
         <strong>{JOURNEY_TITLE}</strong>
       </h1>

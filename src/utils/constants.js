@@ -1,7 +1,10 @@
 export const JOURNEY_TITLE = "HERE'S A BIT OF MY JOURNEY";
 export const TOOLKIT_TITLE = "MY PROFESSIONAL TOOLKIT";
 export const ESSENTIALS_TITLE = "MY EVERYDAY ESSENTIALS";
+export const PROFESSIONAL_EXPERIENCE_TITLE = "PROFESSIONAL EXPERIENCE";
+export const EDUCATION_TITLE = "EDUCATION";
 export const PROJECTS_TITLE = "ACADEMIC PROJECTS";
+
 export const DEVELOPER_NAME = "Yashaswini Nagaraju";
 
 export const ABOUT_TEXT = `
@@ -35,6 +38,79 @@ export const ACTIVITIES_LIST = [
     { name: "DIY (DO-IT-YOURSELF) Enthusiast" },
     { name: "Former University-Level Long-Distance Runner" },
     { name: "Watching Documentaries" },
+];
+
+export const PROJECTS = [
+  {
+    imgPath: require('../assets/ecc.jpg'),
+    title: "Elliptic Curve Cryptography",
+    description: "This project implements Elliptic-Curve Cryptography (ECC) in Java, focusing on secure key pair generation, encryption, and decryption using elliptic curve algorithms. The application demonstrates ECC's efficiency for secure communications by enabling digital signature creation and verification, ensuring data integrity and confidentiality with minimal computational overhead.",
+    ghLink: "https://github.com/yashaswini-nagaraju/Elliptic-Curve-Cryptography"
+  },
+  {
+    imgPath: require('../assets/bank.png'),
+    title: "Banking System Application",
+    description: "Developed a C++ based application for managing banking operations, including account management, secure transactions, and loan processing. Designed with robust authentication and audit features to ensure security and reliability in handling user data",
+    ghLink: ""
+  }
+];
+
+export const DEGREES = [
+  {
+    title: "MASTER OF SCIENCE IN INFORMATION TECHNOLOGY",
+    date: "Aug 2018 - May 2020",
+    institution: "Southern New Hampshire University, USA",
+    details: "Web Technology, Database Management Systems, Object-Oriented Modeling and Design, Design & analysis of Algorithms, Data structures, Software Engineering, Introduction to R, Project Management, Technical Communication"
+  },
+  {
+    title: "BACHELOR OF ENGINEERING IN COMPUTER SCIENCE",
+    date: "Aug 2012 - Jul 2016",
+    institution: "Visvesvaraya Technological University, Karnataka, India",
+    details: "Object-oriented programming with C++, Information and Network Security, Software Testing, Object Oriented Modeling & Design, Programming the Web, Java & J2EE, C# Programming & .NET, Unix System Programming, Compiler Design, Computer Networks, Computer Graphics and Visualization, Software Engineering, System Software, Operating Systems, Database Management Systems, Microprocessors, Design and analysis of Algorithms, Unix & Shell Programming, Data Structure with C"
+  },
+  {
+    title: "DIPLOMA IN COMPUTER SCIENCE",
+    date: "Aug 2010 - Jul 2013",
+    institution: "Government Polytechnic College, Channapatna, Karnataka, India",
+    details: "Computer Fundamentals & Applications, Programming in C, Object-oriented programming in C++, Data Structures, Database Management System, Software Engineering, Computer Architecture, Entrepreneurship Development, Linux O.S, System Software, Web designing"
+  }
+];
+
+export const WORK_EXPERIENCE = [
+  {
+    company: "Capital One Financial",
+    location: "Plano, TX",
+    role: "Software Engineer",
+    date: "May 2022 – Till Date",
+    responsibilities: [
+      "Monitored 10+ microservices as production support and mentored junior developers",
+      "Consumed RESTful APIs efficiently, optimizing performance by reducing API response time by 10%",
+      "Worked with cross-functional teams to deliver high-quality software within tight deadlines",
+      "Configured and managed AWS EC2 instances, EKS, RDS, S3 bucket, Elastic Load Balancer, and Auto Scaling to design cost-effective, fault-tolerant systems",
+    ]
+  },
+  {
+    company: "Kaiser Permanente",
+    location: "Pleasanton, CA",
+    role: "Software Engineer",
+    date: "Jul 2020 – May 2022",
+    responsibilities: [
+      "Collaborated with cross-functional team for feature development and bug fixes",
+      "Participated in code reviews and contributed to improving development processes",
+      "Designed and implemented robust RESTful Web Services, enabling seamless CRUD operations on PostgreSQL",
+      "Set up Application Metrics dashboards using tools such as ElasticSearch"
+    ]
+  },
+  {
+    company: "Concentrix",
+    location: "Bengaluru, India",
+    role: "Software Engineer",
+    date: "Sep 2016 – Aug 2018",
+    responsibilities: [
+      "Developed key features in the internal software portal for efficient employee administration and HR operations.",
+      "Implemented Microservice architecture with Spring Boot, modularizing code, and developed REST APIs.",
+    ]
+  }
 ];
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/yashaswini-nagaraju-99116aa6/";
