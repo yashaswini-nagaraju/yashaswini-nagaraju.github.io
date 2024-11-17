@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "./components/Preloader/Preloader";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+const App = () => {
   const [load, updateLoad] = useState(true);
 
   useEffect(() => {
@@ -38,6 +38,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

@@ -1,12 +1,9 @@
 .Typewriter__wrapper {
-    padding-left: 30px;
-    font-size: 2.2em;
-    color: #133E87;
-    font-weight: 600;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 .Typewriter__cursor {
-    font-size: 2.4em;
-    color: #133E87;
+    font-size: 28px;  
 }
 
 @media (max-width: 767px) {
