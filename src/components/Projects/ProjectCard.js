@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BsGithub } from "react-icons/bs";
+import { FaTools } from "react-icons/fa";
 import PropTypes from "prop-types";
 import "./Projects.css";
 
@@ -13,9 +14,14 @@ const ProjectCard = ({ imgPath, title, description, ghLink }) => (
       <Card.Text className="card-text-justify">
         {description}
       </Card.Text>
+      <div className="button-container">
       <Button variant="primary" href={ghLink} target="_blank">
         <BsGithub /> &nbsp; GitHub
       </Button>
+      <Button variant="primary" target="_blank">
+        <FaTools /> &nbsp; TechStack
+      </Button>
+      </div>
     </Card.Body>
   </Card>
 );

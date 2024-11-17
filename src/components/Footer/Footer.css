@@ -1,24 +1,17 @@
 .footer {
-  background-color: #133E87;
+  background-color: var(--primary-color);
   bottom: 0;
-  padding-top: 10px;
-  padding-bottom: 8px;
+  padding: 10px 0 8px;
 }
 
-.footer-copywright {
-  text-align: center;
-}
-
+.footer-copywright,
 .footer-body {
-  z-index: 1;
   text-align: center;
+  z-index: 1;
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center;
-  }
-
+  .footer-copywright,
   .footer-body {
     text-align: center;
   }
@@ -27,19 +20,16 @@
 .footer h3 {
   font-size: 1em;
   color: white;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0;
 }
 
 .footer-icons {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0;
   padding: 0;
 }
 
 .social-icons {
   color: white;
   display: inline-block;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }

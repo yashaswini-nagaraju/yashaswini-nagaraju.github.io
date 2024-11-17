@@ -44,13 +44,31 @@ export const PROJECTS = [
   {
     imgPath: require('../assets/ecc.jpg'),
     title: "Elliptic Curve Cryptography",
-    description: "This project implements Elliptic-Curve Cryptography (ECC) in Java, focusing on secure key pair generation, encryption, and decryption using elliptic curve algorithms. The application demonstrates ECC's efficiency for secure communications by enabling digital signature creation and verification, ensuring data integrity and confidentiality with minimal computational overhead.",
+    description: "Elliptic-Curve Cryptography (ECC) project demonstrates ECC's efficiency for secure communications by enabling digital signature creation and verification, ensuring data integrity and confidentiality with minimal computational overhead.",
     ghLink: "https://github.com/yashaswini-nagaraju/Elliptic-Curve-Cryptography"
   },
   {
     imgPath: require('../assets/bank.png'),
     title: "Banking System Application",
     description: "Developed a C++ based application for managing banking operations, including account management, secure transactions, and loan processing. Designed with robust authentication and audit features to ensure security and reliability in handling user data",
+    ghLink: ""
+  },
+  {
+    imgPath: require('../assets/comingsoon.jpg'),
+    title: "SQL Project",
+    description: "🚧 Work in Progress — Launching Soon!",
+    ghLink: ""
+  },
+  {
+    imgPath: require('../assets/comingsoon.jpg'),
+    title: "Capstone Project",
+    description: "🚧 Work in Progress — Launching Soon!",
+    ghLink: ""
+  },
+  {
+    imgPath: require('../assets/comingsoon.jpg'),
+    title: "Excel Project",
+    description: "🚧 Work in Progress — Launching Soon!",
     ghLink: ""
   }
 ];
