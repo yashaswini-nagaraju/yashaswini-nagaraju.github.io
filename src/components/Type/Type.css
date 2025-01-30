@@ -1,0 +1,20 @@
+.Typewriter__wrapper {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.Typewriter__cursor {
+    font-size: 28px;  
+}
+
+@media (max-width: 767px) {
+    .Typewriter__wrapper {
+        font-size: 1.4em;
+        font-weight: 500;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .Typewriter__cursor {
+        display: none;
+    }
+}
