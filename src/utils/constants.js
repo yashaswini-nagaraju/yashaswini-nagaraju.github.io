@@ -54,10 +54,10 @@ export const PROJECTS = [
     ghLink: ""
   },
   {
-    imgPath: require('../assets/comingsoon.jpg'),
+    imgPath: require('../assets/population.jpg'),
     title: "SQL Project",
-    description: "🚧 Work in Progress — Launching Soon!",
-    ghLink: ""
+    description: "Using BigQuery, explored public dataset on homelessness from 2010 - 2018 to draw insights into the trends",
+    ghLink: "https://github.com/yashaswini-nagaraju/Data-Analytics/tree/main/BigQuery-Data-Exploration"
   },
   {
     imgPath: require('../assets/comingsoon.jpg'),
@@ -66,10 +66,10 @@ export const PROJECTS = [
     ghLink: ""
   },
   {
-    imgPath: require('../assets/comingsoon.jpg'),
+    imgPath: require('../assets/social-buzz.jpg'),
     title: "Excel Project",
-    description: "🚧 Work in Progress — Launching Soon!",
-    ghLink: ""
+    description: "Using Excel, analyzed and identified the top 5 most popular content categories on Social Buzz",
+    ghLink: "https://github.com/yashaswini-nagaraju/Data-Analytics/tree/main/Social-Buzz"
   }
 ];
 
